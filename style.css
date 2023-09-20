@@ -229,7 +229,7 @@ body{
 .close-button {
     background-color: transparent;
     border: none;
-    color: red; /* Adjust color as needed */
+    color: red; 
     font-size: 20px;
     cursor: pointer;
 }
