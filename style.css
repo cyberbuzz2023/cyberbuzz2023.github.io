@@ -228,8 +228,8 @@ body{
 
 .close-button {
     position: absolute;
-    top: 5;
-    right: 5;
+    top: 0;
+    right: 500;
     background-color: transparent;
     border: none;
     color: red; 
