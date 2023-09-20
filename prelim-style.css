@@ -1,0 +1,41 @@
+body{
+    padding-top: 5.5vh;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.heading{
+    text-align: center;
+    font-size: 5.2vh;
+    margin: auto;
+    font-weight: 300;
+}
+.top-head{
+    color: #222;
+    padding: 0 5px 0 5px;
+    border-bottom: solid 1px #10bfde;
+}
+.results-main{
+    padding: 8vh 50px 0 50px;
+    font-size: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("logo.ico");
+    height: 1000px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.results-box{
+    margin: 5px;
+    padding: 40px 40px;
+
+}
+.event-name{
+    font-weight: 700;
+}
+.event-winners{
+    font-size: 2.5vh;
+}
+
