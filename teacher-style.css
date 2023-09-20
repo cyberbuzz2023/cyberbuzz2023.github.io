@@ -36,6 +36,28 @@ body{
 }
 
 
+.big-box2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.big-item2{
+	margin: 0px 10px 10px 10px;
+	height: 275px;
+	width: 275px;
+}
+.big2{
+	padding-bottom: 5px;
+	height: 90%;
+	width: 90%;
+}
+.big-post2{
+	font-weight: bold;
+	color: #333;
+}
+
+
+
 .box{
 	display: flex;
 	padding: 80px 100px 40px 100px;
