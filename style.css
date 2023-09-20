@@ -226,13 +226,13 @@ body{
 
 
 
-
-
 .close-button {
-    z-index: 999;
-	cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: red; /* Adjust color as needed */
+    font-size: 20px;
+    cursor: pointer;
 }
-
 
 
 
