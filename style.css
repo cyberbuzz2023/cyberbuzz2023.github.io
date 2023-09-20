@@ -228,6 +228,10 @@ body{
 
 
 
+.close-button {
+    z-index: 999;
+	cursor: pointer;
+}
 
 
 
