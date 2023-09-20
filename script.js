@@ -1,3 +1,12 @@
+
+function closeModal(modalId) {
+    var modal = document.getElementById(modalId);
+    if (modal) {
+        modal.style.display = "none";
+    }
+}
+
+
 window.onload = function () {
     // Get all elements with class "box"
     var boxes = document.querySelectorAll(".box");
@@ -16,13 +25,6 @@ window.onload = function () {
         });
     });
 
-    // Function to close the modal by modal ID
-    function closeModal(modalId) {
-        var modal = document.getElementById(modalId);
-        if (modal) {
-            modal.style.display = "none";
-        }
-    }
 
     // Add a click event listener to close buttons within modals
     var closeButtons = document.querySelectorAll(".close-button");
