@@ -82,6 +82,29 @@ body{
 .name{
 	font-size: 15px;
 }
+.box2{
+	display: flex;
+	padding: 40px 100px 0 100px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.b-item2{
+	margin: 0px 20px 25px 20px;
+	height: 250px;
+	width: 250px;
+}
+.b-img2{
+	height: 100%;
+	width: 100%;
+}
+.b-post2{
+	font-weight: bold;
+	font-size: 15px;
+	color: #333;
+}
+.name2{
+	font-size: 15px;
+}
 
 
 .bb-box{
